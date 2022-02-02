@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription en licence</title>
+</head>
+<body>
+    <h1 align=center> Inscription en licence</h1>
+    <FORM align=center ACTION="institut.html" METHOD="post" NAME ="inscription en licence">
+        <fieldset>
+            <legend>Informations
+            personnelles</legend>
+        Votre nom : <INPUT  TYPE="text" NAME="nom" placeholder="votre nom?" SIZE=15MAXLENGTH=30> <br>
+    Votre prénom : <INPUT TYPE="text" NAME="prenom" placeholder="votre prénom?"SIZE=15 MAXLENGTH=30> <BR>
+    Votre age : <INPUT TYPE="number" NAME="age" placeholder="votre age?"SIZE=15  MAXLENGTH=30><BR>
+       
+        Votre adresse : 
+            <TEXTAREA NAME="adresse" placeholder="votre adresse?" ROWS=5 COLS=40></TEXTAREA><BR>
+            <label for="passwd"> mot de passe: </label> :<INPUT TYPE ="password"NAME="passwd" ID ="passwd" SIZE=15 MAXLENGTH=30 required><BR>
+                <label for="passwd"> Retapez votre mot de passe: </label> :<INPUT TYPE ="password"NAME="passwd" ID ="passwd" SIZE=15 MAXLENGTH=30 required><BR>
+                    l'adresse email :<input type="email" /> <br>
+                    votre URL : <input type="url" /> <br>
+                    le site de l’étudiant: <input type="url" /> <br>
+                    la date de naissance:<input type="date" /> <br> 
+                   ajouter quelque chose <TEXTAREA NAME="text" pattern ="[I] [N] [S] [A] [T] [0-9]" ROWS=5 COLS=40></TEXTAREA><BR>
+                </fieldset>
+                <fieldset>
+                    <legend>gestion des groupes et des options</legend>
+                Votre groupe : <INPUT TYPE ="radio" NAME =" groupe" ID="Groupe1"VALUE="Groupe1"> Groupe1
+                     <INPUT TYPE ="radio" NAME =" groupe" ID="Groupe2"VALUE="Groupe2"> Groupe2
+                        <INPUT TYPE ="radio" NAME =" groupe" ID="Groupe3"VALUE="Groupe3"> Groupe3 <br> 
+                            Numéro de carte d'étudiant : <INPUT TYPE="text" NAME="numero" placeholder="votre numero?" SIZE=15 MAXLENGTH=30> <BR> 
+                               
+                               choisissez les options que vous désirez <SELECT NAME="option" size=3 >
+                                    <OPTION VALUE="android"> android
+                                    <OPTION VALUE="Net"> Net
+                                    <OPTION VALUE="HTML5"> html5
+                                    <OPTION VALUE="css"> css
+                                    <OPTION VALUE="JAVA"> JAVA
+                                    </SELECT>
+                                </fieldset> 
+                                    <INPUT align=center TYPE="submit" VALUE=" Valider">
+                                        <INPUT TYPE="reset" VALUE="réinitialiser">
+                            
+                            </body>
+</html>
